@@ -60,4 +60,4 @@ data cleaning, and preprocessing it using Python to prepare it for further analy
 - `report.docx` — detailed report with explanations and screenshots
 
 ## Author
-Aayitijhya Ganguly (Moon)
+Aayitijhya Ganguly 

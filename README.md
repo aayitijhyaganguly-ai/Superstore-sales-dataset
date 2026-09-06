@@ -1,5 +1,5 @@
 # Superstore-sales-dataset
-# Superstore Sales — Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 ## Objective
 This project demonstrates the process of acquiring a public dataset, performing 

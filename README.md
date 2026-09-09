@@ -1,5 +1,5 @@
 # Superstore-sales-dataset
-### Data Cleaning & Preprocessing
+### WEEK 1: Data Cleaning & Preprocessing
 
 ## Objective
 This project demonstrates the process of acquiring a public dataset, performing 
@@ -58,6 +58,39 @@ data cleaning, and preprocessing it using Python to prepare it for further analy
 ## Files
 - `notebook.ipynb` — full code with outputs
 - `report.docx` — detailed report with explanations and screenshots
+
+## WEEK 2: Exploratory Data Analysis & Visualization
+
+### Objective
+Perform exploratory data analysis (EDA) and create visualizations on the cleaned 
+Superstore Sales dataset to extract meaningful insights, using pandas, matplotlib, 
+and seaborn.
+
+### Key Performance Indicators (KPIs)
+- Total Sales: ₹2,252,607
+- Total Orders: 4,916
+- Average Order Value: ₹230
+
+### Visualizations Created
+- Total Sales by Category (bar chart)
+- Total Sales by Region (bar chart)
+- Order Distribution by Segment (pie chart)
+- Monthly Sales Trend, 2015–2019 (line chart)
+- Correlation Heatmap: Sales vs Shipping Delay (heatmap)
+- Top 10 Sub-Categories by Sales (bar chart)
+- Distribution of Shipping Delay (histogram)
+- Sales vs Shipping Delay by Category (scatter plot)
+
+### Data Transformations & Aggregations
+- Converted `Order Date` and `Ship Date` to proper datetime format
+- Engineered a new feature, `Shipping_Delay_Days` (Ship Date − Order Date), to enable 
+  correlation analysis
+- Aggregated Sales using `groupby()` at Category, Region, and Sub-Category levels
+- Aggregated Order Date to monthly periods for the time-series trend
+
+### Key Findings
+- **Technology** is the top-performing category by sales, driven largely by **Phones**
+- **West** and **East** regions generate
 
 ## Author
 Aayitijhya Ganguly 
